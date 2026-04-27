@@ -9,7 +9,7 @@ terraform {
 
   # Uncomment below to use S3 backend for state management
    backend "s3" {
-     bucket         = "terraform-state-dev-038208944683"
+     bucket         = "terraform-state-dev-509017208081"
      key            = "dev/ec2/terraform.tfstate"
      region         = "us-east-1"
      encrypt        = true
